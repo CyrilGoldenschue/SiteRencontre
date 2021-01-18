@@ -1,6 +1,10 @@
 <template>
   <Header />
-  <h1>Home Page</h1>
+  <div class="test">
+    <h1>Home Page</h1>
+    test
+  </div>
+
   <Footer />
 </template>
 <script>
@@ -20,4 +24,7 @@
     margin : 0;
   }
 
+  .test {
+    height: 100%;
+  }
 </style>

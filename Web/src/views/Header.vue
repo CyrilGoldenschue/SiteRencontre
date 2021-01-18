@@ -2,9 +2,9 @@
   <header>
     <div class="heading">
       <a href="/"><img class="Logo" alt="Vue logo" src="../assets/logo.png"></a>
-      <div class="login"><a class="ButtonLogin" href="/Login">Login/Register</a></div>
+
+      <div class="menu"><a class="ButtonMenu" href="/Loan">Découvrir</a><a class="ButtonMenu" href="/Render">Recherche</a><a class="ButtonMenu" href="/AddBook">Chat</a><a class="ButtonMenu" href="/AddBook">Match</a><a class="ButtonLogin" href="/Login">Login</a><a class="ButtonLogin" href="/Register">Register</a></div>
     </div>
-    <div class="menu"><a class="ButtonMenu" href="/Loan">Emprunter</a><a class="ButtonMenu" href="/Render">Rendre</a><a class="ButtonMenu" href="/AddBook">Ajouter un livre</a></div>
   </header>
 </template>
 
@@ -28,26 +28,22 @@
   }
 
   .Logo {
-    height: 125px;
-    margin-left: 20px;
-    margin-right: 0;
-    margin-top: 10px
+    height: 70px;
+    margin-left: 10px;
+    margin-right: 5px;
+    margin-top: 10px;
   }
   .ButtonMenu, .ButtonLogin {
     background-color: #784FFF;
-    border-left: 1px solid;
+    border-left: 2px solid;
     padding-top: 8px;
     padding-bottom: 8px;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 15px;
+    padding-right: 15px;
     color: white;
-    width: 100%;
-    font-size: 25px;
+    font-size: 18px;
     font-family: 'Roboto', sans-serif;
-  }
-
-  .ButtonLogin {
-    margin-right: 10px;
+    width: 100%;
   }
 
   .heading {
@@ -63,12 +59,9 @@
     display: flex;
     text-align: center;
     flex-direction: row;
-    margin: 0;
+    margin: auto;
+    height: 100%;
+    vertical-align: middle;
   }
 
-  .login {
-    width: 100%;
-    text-align: right;
-    margin: auto;
-  }
 </style>
