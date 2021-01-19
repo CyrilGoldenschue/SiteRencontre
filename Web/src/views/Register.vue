@@ -18,8 +18,8 @@
                     <td><input type="text" class="form-control"  required></td>
                 </tr>
                 <tr>
+                    <td><router-link class="active" to="/Login">se connecter</router-link> ou</td>
                     <td><button class="btn btn-danger btn-block">S'enregistrer !</button></td>
-                    <td>ou <router-link class="active" to="/Login">se connecter</router-link>.</td>
                 </tr>
             </table>
         </form>
@@ -39,11 +39,8 @@
 </script>
 
 <style>
-    body {
-        margin : 0;
-    }
-
-    .test {
-        height: 100%;
+    .bodyWeb{
+        width: 50%;
+        margin: auto;
     }
 </style>
