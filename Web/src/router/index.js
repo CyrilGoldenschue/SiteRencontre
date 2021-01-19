@@ -1,7 +1,10 @@
 import { createWebHistory, createRouter } from "vue-router";
 import Home from "@/views/Home.vue";
-import About from "@/views/About.vue";
-import Help from "@/views/Help.vue";
+import Search from "@/views/Search.vue";
+import Chat from "@/views/Chat.vue";
+import Match from "@/views/Match.vue";
+import Login from "@/views/Login.vue";
+import Register from "@/views/Register.vue";
 import PageNotFound from "@/views/errors/PageNotFound.vue";
 
 
@@ -12,14 +15,34 @@ const routes = [
         component: Home,
     },
     {
-        path: "/about",
-        name: "About",
-        component: About,
+        path: "/Discover",
+        name: "Discover",
+        component: Home,
     },
     {
-        path: "/help",
-        name: "Help",
-        component: Help,
+        path: "/Search",
+        name: "Search",
+        component: Search,
+    },
+    {
+        path: "/Chat",
+        name: "Chat",
+        component: Chat,
+    },
+    {
+        path: "/Match",
+        name: "Match",
+        component: Match,
+    },
+    {
+        path: "/Login",
+        name: "Login",
+        component: Login,
+    },
+    {
+        path: "/Register",
+        name: "Register",
+        component: Register,
     },
     {
         path: "/:catchAll(.*)",
