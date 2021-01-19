@@ -42,5 +42,6 @@
     .bodyWeb{
         width: 50%;
         margin: auto;
+        margin-top: 20px;
     }
 </style>

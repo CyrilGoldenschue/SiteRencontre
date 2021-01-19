@@ -10,7 +10,7 @@
       background-color: #784FFF;
       width: 100%;
       position: absolute;
-      bottom:auto;
+      bottom:0;
     }
 
 

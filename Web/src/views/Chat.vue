@@ -1,6 +1,6 @@
 <template>
     <Header />
-    <div class="test">
+    <div class="bodyWeb">
         <h1>Chat</h1>
         test
     </div>
@@ -20,11 +20,9 @@
 </script>
 
 <style>
-    body {
-        margin : 0;
-    }
-
-    .test {
-        height: 100%;
+    .bodyWeb{
+        width: 50%;
+        margin: auto;
+        margin-top: 20px;
     }
 </style>
