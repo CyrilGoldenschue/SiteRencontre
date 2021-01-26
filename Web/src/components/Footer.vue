@@ -1,6 +1,5 @@
 <template>
   <footer>
-  <h2> Footer !</h2>
   </footer>
 </template>
 
@@ -11,7 +10,7 @@
       width: 100%;
       position: absolute;
       bottom:0;
+      height: 50px;
     }
-
 
 </style>
