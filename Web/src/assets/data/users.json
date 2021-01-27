@@ -1,39 +1,40 @@
 [
     {
-        "firstname" : "",
-        "name":"Patricia",
-        "username" : "",
-        "email": "",
-        "phone": "",
+        "firstname" : "Vanessa",
+        "name":"Paradis",
+        "username" : "un",
+        "email": "sd@gmail.com",
+        "phone": "084867884",
         "morphology": {
-            "weight": "",
-            "size": "",
-            "age": "",
-            "silhouette": "",
-            "hair_color": "",
-            "eye_color": "",
-            "gender": "",
-            "search_gender": "",
-            "type_relation": ""
+            "weight": "50",
+            "size": "1m82",
+            "age": "20",
+            "silhouette": "fine",
+            "hair_color": "noire",
+            "eye_color": "noire",
+            "gender": "femme",
+            "search_gender": "homme",
+            "type_relation": "friends.png"
         },
         "image":"https://ecolalies.fr/images/site-rencontre-femme-gabon-2.jpg"
     },
     {
-        "firstname" : "",
-        "name":"truc",
-        "username" : "",
-        "email": "",
-        "phone": "",
+        "firstname" : "fn",
+        "name":"Patricia",
+        "username" : "un",
+        "email": "sd@gmail.com",
+        "phone": "084867884",
         "morphology": {
-            "weight": "",
-            "size": "",
-            "age": "",
-            "silhouette": "",
-            "hair_color": "",
-            "eye_color": "",
-            "gender": "",
-            "search_gender": "",
-            "type_relation": ""
+            "weight": "50",
+            "size": "1m82",
+            "age": "20",
+            "silhouette": "fine",
+            "hair_color": "noire",
+            "eye_color": "noire",
+            "gender": "femme",
+            "search_gender": "homme",
+            "type_relation": "serieux.png"
+
         },
         "image":"https://www.planeteradicale.org/wp-content/uploads/2019/06/photo-site-rencontre.jpg"
     },
@@ -52,7 +53,7 @@
             "eye_color": "",
             "gender": "",
             "search_gender": "",
-            "type_relation": ""
+            "type_relation": "honesty.png"
         },
         "image":"https://storage-dating.euranka.com/uploads/sites/7/2018/09/pseudo-site-rencontre.jpg"
     },
@@ -71,8 +72,8 @@
             "eye_color": "",
             "gender": "",
             "search_gender": "",
-            "type_relation": ""
-        },
+            "type_relation": "needTime.png"
+    },
         "image":"https://graciasalavida.be/images/site-de-rencontres-pour-fille.jpg"
     },
     {
@@ -90,7 +91,7 @@
             "eye_color": "",
             "gender": "",
             "search_gender": "",
-            "type_relation": ""
+            "type_relation": "sex.png"
         },
         "image":"https://www.wombatah.com/i7CpKnRRuLmrt/belles-filles-1.jpg"
     }
