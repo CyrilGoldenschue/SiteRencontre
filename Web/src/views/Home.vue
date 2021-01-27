@@ -7,7 +7,7 @@
 
             <button class="ButtonStart btn btn-dark btn-block w3-left" @click="nextImage" >start</button>
             <div class="w3-display-container mySlides" v-for="user in users" :key="user.name" >
-                <img class="Picture" :src="user.image" :alt="user.name"  />
+                <img class="Picture" :src="require('@/assets/img/users/' + user.image )"  :alt="user.name"  />
                 <br>
                 <b>{{user.firstname}} {{user.name}}</b><br>
                 âge : {{user.morphology.age}} ans <br>
@@ -38,6 +38,7 @@
 
 
 <script>
+
   import Header from '../components/Header.vue'
   import Footer from '../components/Footer.vue'
   import myJson from '../assets/data/users.json'
