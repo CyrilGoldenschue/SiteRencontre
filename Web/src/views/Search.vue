@@ -25,10 +25,10 @@
         <div class="AreaUser">
             <div v-for="user in users" :key="user.name" class="DisplayUser">
                 <div class="AreaPicture">
-                <img class="PictureSearch" :src="user.image" :alt="user.name"  />
+                <img class="PictureSearch" :src="require('@/assets/img/users/' + user.image )" :alt="user.name"  />
                 </div>
                 <br>
-                {{user.name}}
+                {{user.name}} <span> {{user.morphology.age}} ans</span>
             </div>
         </div>
 
