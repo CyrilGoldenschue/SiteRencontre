@@ -3,7 +3,7 @@
     <div class="heading">
       <a href="/"><img class="Logo" alt="Vue logo" src="../assets/logo.png"></a>
 
-      <div class="menu"><a class="ButtonMenu" href="/Discover">Découvrir</a><a class="ButtonMenu" href="/Search">Recherche</a><a class="ButtonMenu" href="/Chat">Chat</a><a class="ButtonMenu" href="/Match">Match</a><a class="ButtonLogin" href="/Login">Connexion</a></div>
+      <div class="menu"><a class="ButtonMenu" href="/Discover">Découvrir</a><a class="ButtonMenu" href="/Search">Recherche</a><a class="ButtonMenu" href="/Match">Match</a><a class="ButtonLogin" href="/Login">Connexion</a></div>
     </div>
   </header>
 </template>
