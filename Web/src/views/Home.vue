@@ -38,7 +38,6 @@
 
 
 <script>
-
   import Header from '../components/Header.vue'
   import Footer from '../components/Footer.vue'
   import myJson from '../assets/data/users.json'
@@ -61,7 +60,7 @@
         nextImage: function () {
             MyFunctions.myFunction(1);
         }
-    },
+    }
   };
 
 </script>

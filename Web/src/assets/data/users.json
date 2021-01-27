@@ -34,8 +34,8 @@
             "eye_color": "noire",
             "gender": "femme",
             "search_gender": "homme",
-            "type_relation": "serieux",
-            "type_relation_image": "serieux.png"
+            "type_relation": "serious",
+            "type_relation_image": "serious.png"
 
         },
         "image":"2.jpg"
@@ -95,8 +95,8 @@
             "eye_color": "",
             "gender": "",
             "search_gender": "",
-            "type_relation": "sex",
-            "type_relation_image": "sex.png"
+            "type_relation": "fun",
+            "type_relation_image": "fun.png"
         },
         "image":"5.jpg"
     }
