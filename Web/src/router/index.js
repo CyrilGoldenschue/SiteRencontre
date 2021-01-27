@@ -1,7 +1,6 @@
 import { createWebHistory, createRouter } from "vue-router";
 import Home from "@/views/Home.vue";
 import Search from "@/views/Search.vue";
-import Chat from "@/views/Chat.vue";
 import Match from "@/views/Match.vue";
 import Login from "@/views/Login.vue";
 import Register from "@/views/Register.vue";
@@ -23,11 +22,6 @@ const routes = [
         path: "/Search",
         name: "Search",
         component: Search,
-    },
-    {
-        path: "/Chat",
-        name: "Chat",
-        component: Chat,
     },
     {
         path: "/Match",

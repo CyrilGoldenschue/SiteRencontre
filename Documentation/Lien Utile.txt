@@ -1,1 +1,4 @@
 https://www.vuemastery.com/blog/vue-router-a-tutorial-for-vue-3/
+
+
+https://stackoverflow.com/questions/47996319/can%C2%B4t-load-the-src-of-an-image-via-json-vue-js
