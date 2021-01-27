@@ -8,7 +8,7 @@
             <button class="ButtonStart btn btn-dark btn-block w3-left" @click="nextImage" >start</button>
             <div class="w3-display-container mySlides" v-for="user in users" :key="user.name" >
                 <img class="Picture" :src="user.image" :alt="user.name"  />
-                <br><br>
+                <br>
                 <b>{{user.firstname}} {{user.name}}</b><br>
                 âge : {{user.morphology.age}} ans <br>
                 poids : {{user.morphology.weight}} kg <br>
@@ -17,7 +17,9 @@
                 couleur de cheveux : {{user.morphology.hair_color}}  <br>
                 couleur des yeux : {{user.morphology.eye_color}}  <br>
                 genre recherché : {{user.morphology.search_gender}}  <br>
-                type de relation : <img class="PictureRelation" src="https://www.dropbox.com/preview/img/exceptional.png?role=personal">   <br><br>
+                type de relation : <div style="margin-left: 250px"><b>{{user.morphology.type_relation}}</b> <br>
+                <img class="PictureRelation" :alt="user.morphology.type_relation" :src="require('@/assets/img/typeRelation/' + user.morphology.type_relation_image )">
+            </div>
 
 
             </div>
@@ -80,6 +82,9 @@
     }
     .Picture{
         height: 400px;
+    }
+    .PictureRelation{
+        height: 100px;
     }
 
 </style>

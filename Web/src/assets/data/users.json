@@ -14,7 +14,8 @@
             "eye_color": "noire",
             "gender": "femme",
             "search_gender": "homme",
-            "type_relation": "friends.png"
+            "type_relation": "friends",
+            "type_relation_image": "friends.png"
         },
         "image":"https://ecolalies.fr/images/site-rencontre-femme-gabon-2.jpg"
     },
@@ -33,7 +34,8 @@
             "eye_color": "noire",
             "gender": "femme",
             "search_gender": "homme",
-            "type_relation": "serieux.png"
+            "type_relation": "serieux",
+            "type_relation_image": "serieux.png"
 
         },
         "image":"https://www.planeteradicale.org/wp-content/uploads/2019/06/photo-site-rencontre.jpg"
@@ -53,7 +55,8 @@
             "eye_color": "",
             "gender": "",
             "search_gender": "",
-            "type_relation": "honesty.png"
+            "type_relation": "honesty",
+            "type_relation_image": "honesty.png"
         },
         "image":"https://storage-dating.euranka.com/uploads/sites/7/2018/09/pseudo-site-rencontre.jpg"
     },
@@ -72,7 +75,8 @@
             "eye_color": "",
             "gender": "",
             "search_gender": "",
-            "type_relation": "needTime.png"
+            "type_relation": "needTime",
+            "type_relation_image": "needTime.png"
     },
         "image":"https://graciasalavida.be/images/site-de-rencontres-pour-fille.jpg"
     },
@@ -91,7 +95,8 @@
             "eye_color": "",
             "gender": "",
             "search_gender": "",
-            "type_relation": "sex.png"
+            "type_relation": "sex",
+            "type_relation_image": "sex.png"
         },
         "image":"https://www.wombatah.com/i7CpKnRRuLmrt/belles-filles-1.jpg"
     }
