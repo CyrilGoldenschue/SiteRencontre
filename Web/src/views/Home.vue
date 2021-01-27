@@ -2,15 +2,26 @@
   <div id="app">
   <Header />
   <div class="bodyWebHome" @load="displayImage">
-    <h1>Home Page</h1>
     <div>
         <div class="w3-content" >
 
             <button class="ButtonStart btn btn-dark btn-block w3-left" @click="nextImage" >start</button>
-            <div class="w3-display-container mySlides" v-for="user in users" :key="user.id" >
-                <img class="Picture" :src="user.image" :alt="user.name"  />
+            <div class="w3-display-container mySlides" v-for="user in users" :key="user.name" >
+                <img class="Picture" :src="require('@/assets/img/users/' + user.image )"  :alt="user.name"  />
                 <br>
-                {{user.name}}
+                <b>{{user.firstname}} {{user.name}}</b><br>
+                âge : {{user.morphology.age}} ans <br>
+                poids : {{user.morphology.weight}} kg <br>
+                taille : {{user.morphology.size}}  <br>
+                silhouette : {{user.morphology.silhouette}}  <br>
+                couleur de cheveux : {{user.morphology.hair_color}}  <br>
+                couleur des yeux : {{user.morphology.eye_color}}  <br>
+                genre recherché : {{user.morphology.search_gender}}  <br>
+                type de relation : <div style="margin-left: 250px"><b>{{user.morphology.type_relation}}</b> <br>
+                <img class="PictureRelation" :alt="user.morphology.type_relation" :src="require('@/assets/img/typeRelation/' + user.morphology.type_relation_image )">
+            </div>
+
+
             </div>
             <button class="ButtonNo  btn btn-danger btn-block w3-left" @click="nextImage" >No</button>
             <button class="ButtonYes btn btn-success btn-block w3-right" @click="nextImage" >Yes</button>
@@ -27,6 +38,7 @@
 
 
 <script>
+
   import Header from '../components/Header.vue'
   import Footer from '../components/Footer.vue'
   import myJson from '../assets/data/users.json'
@@ -49,7 +61,6 @@
         nextImage: function () {
             MyFunctions.myFunction(1);
         }
-
     },
   };
 
@@ -72,6 +83,9 @@
     }
     .Picture{
         height: 400px;
+    }
+    .PictureRelation{
+        height: 100px;
     }
 
 </style>
